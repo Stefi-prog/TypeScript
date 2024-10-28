@@ -1,0 +1,17 @@
+{
+    "$schema": "https://swc.rs/schema.json",
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",  
+        "tsx": false,            // Si estás usando archivos .tsx, ponlo en true
+        "dynamicImport": false,
+        "decorators": false
+      },
+      "target": "es2018",        // Mantener una versión compatible de ECMAScript
+      "loose": false,
+      "externalHelpers": false,
+      "keepClassNames": false
+    },
+    "minify": false
+  }
+  
